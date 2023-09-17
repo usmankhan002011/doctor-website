@@ -1,0 +1,57 @@
+html, body {
+  background-color: black;
+  margin: 0 !important;
+  padding: 0;
+}
+
+.major {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.major .three {
+  order: 1;
+}
+.major .one {
+  order: 2;
+}
+.major .two {
+  order: 3;
+}
+.major .four {
+  order: 4;
+}
+.major .one, .major .two {
+  position: relative;
+  font-size: 0;
+  display: flex;
+  justify-content: center;
+  margin: 1vw;
+  width: 40vw;
+}
+.major .three, .major .four {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 1vw;
+  align-items: center;
+  width: 10vw;
+}
+
+.b1 {
+  background-color: #6e0404;
+  width: 60%;
+  height: 4em;
+  border-width: 0;
+}
+
+.b1:hover {
+  background-color: #8d5252;
+}
+
+.b1[active=true] {
+  background-color: #7f1d1d;
+}/*# sourceMappingURL=style.css.map */
